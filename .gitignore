@@ -1,1 +1,8 @@
 node_modules/
+<<<<<<< HEAD
+=======
+.df-credentials.json
+unittests.config.json
+includes/unit_tests/tmp/*
+.DS_Store
+>>>>>>> refs/heads/main
