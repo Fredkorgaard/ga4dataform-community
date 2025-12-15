@@ -4,7 +4,7 @@ defaultAssertionDataset: dataform_assertions
 
 vars:
   GA4_DATASET: analytics_264228970
-  LOCAL_TIMEZONE: Europe/Copenhagen
+  LOCAL_TIMEZONE: America/New_York
   TRANSFORMATIONS_DATASET: clean
   OUTPUTS_DATASET: clean
   QUALITY_DATASET: clean
