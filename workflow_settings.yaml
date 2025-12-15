@@ -1,22 +1,13 @@
 defaultProject: ml-data-warehouse-479502
 defaultLocation: US
-
-# Hvor assertions (tests) lægges
 defaultAssertionDataset: dataform_assertions
 
 vars:
-  # RAW GA4 export dataset (read-only)
   GA4_DATASET: analytics_264228970
-
-  # Timezone til lokale session-datoer (vælg den du reelt vil rapportere i)
   LOCAL_TIMEZONE: Europe/Copenhagen
-
-  # Hvor pakken må skrive tabeller
   TRANSFORMATIONS_DATASET: clean
   OUTPUTS_DATASET: clean
   QUALITY_DATASET: clean
-
-  # Labels (kan stå som default)
   LABEL_GENERIC_BRAND: superformlabs
   LABEL_GENERIC_TOOL: ga4dataform
   LABEL_GENERIC_LICENSE_TYPE: core
